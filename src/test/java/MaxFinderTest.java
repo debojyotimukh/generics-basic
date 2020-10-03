@@ -58,6 +58,6 @@ public class MaxFinderTest {
 
     @Test
     public void maxStringTest3(){
-        Assert.assertThat("c",is(maxString.findMax("b","c","a")));
+        Assert.assertThat("d",is(maxString.findMax("b","c","d","a")));
     }
 }
