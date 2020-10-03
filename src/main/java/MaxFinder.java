@@ -15,8 +15,8 @@ public class MaxFinder<T extends Comparable<T>> {
     }
 
     public static void main(String[] args) {
-        MaxFinder<Integer> maxFinder=new MaxFinder<>();
-        maxFinder.findMax(6,3,2,6,4);
+        MaxFinder<Integer> maxFinder = new MaxFinder<>();
+        maxFinder.findMax(6, 3, 2, 6, 4);
     }
 
 }
